@@ -8,6 +8,15 @@ def designstore(request):
     context = { 'products':products }
     return render(request, 'store/designstore.html', context)
 
+def sitelogin(request):
+    context = {}
+    return render(request, '../account.html', context)
+
+# Create your views here.
+def designstore2(request):
+    context = {}
+    return render(request, 'store/designstore2.html', context)
+
 def cart(request):
     context = {}
     return render(request, 'store/cart.html', context)
