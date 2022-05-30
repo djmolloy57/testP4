@@ -8,6 +8,7 @@ urlpatterns = [
     path('designstore2/', views.designstore2, name="designstore2"),
     path('login/', views.sitelogin, name="login"),
     path('cart/', views.cart, name="cart"),
+    path('checkout/', views.cart, name="checkout"),
     path('viewitem/', views.viewitem, name="viewitem"),
     #path('form_page/', views.cart, name="formpage"),
     path('formpage/', views.form_name_view, name="form_name"),
