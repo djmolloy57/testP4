@@ -43,9 +43,8 @@ body{
   cursor: pointer;
   margin-top: 5px;
   transition:.1s;
-
-
 }
+
 .quantity{
   dispay: inline-block;
   font-weight: 700;
@@ -59,6 +58,15 @@ body{
   margin-bottom: 10px;
   border-bottom: 1px solid #ecece;
 }
+.form-field{
+  width: 250px;
+  display: inline-block;
+  padding: 5px;
+
+}
+.hidden{
+  display: none !important;
+}
 
 #testimonial_info{
     width: 50%;
@@ -70,6 +78,9 @@ body{
 
     #testimonial_info{
         width: 100%;
+    }
+    .hidden{
+      display: none !important;
     }
   
 }
@@ -83,6 +94,9 @@ body{
     }
     #testimonial_info{
       width: 100%;
+    }
+    .hidden{
+      display: none !important;
     }
  
  
